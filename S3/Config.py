@@ -61,16 +61,9 @@ class Config(object):
     add_encoding_exts = ""
     preserve_attrs = True
     preserve_attrs_list = [
-        'uname',    # Verbose owner Name (e.g. 'root')
-        'uid',      # Numeric user ID (e.g. 0)
-        'gname',    # Group name (e.g. 'users')
-        'gid',      # Numeric group ID (e.g. 100)
-        'atime',    # Last access timestamp
         'mtime',    # Modification timestamp
         'ctime',    # Creation timestamp
-        'mode',     # File mode (e.g. rwxr-xr-x = 755)
         'md5',      # File MD5 (if known)
-        #'acl',     # Full ACL (not yet supported)
     ]
     delete_removed = False
     delete_after = False
